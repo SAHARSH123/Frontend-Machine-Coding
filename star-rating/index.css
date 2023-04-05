@@ -1,0 +1,17 @@
+body {
+  height: 100vh;
+}
+.container {
+  text-align: center;
+}
+.star-container {
+  font-size: 40px;
+  cursor: pointer;
+}
+.star {
+  color: gray;
+}
+
+.color-star {
+  color: rgb(255, 225, 0);
+}
