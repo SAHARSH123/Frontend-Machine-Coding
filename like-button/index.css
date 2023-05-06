@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: white;
+  color: gray;
+  justify-content: space-between;
+  padding: 0px 30px;
+  box-sizing: border-box;
+  border: 2px solid gray;
+}
+
+.disableHover {
+  pointer-events: none;
+}
+
+.buttonContainer:hover {
+  border: 2px solid red;
+  color: red;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn-click {
+  background-color: red;
+  color: white;
+  border: 2px solid red;
+}
+
+#progress {
+  display: none;
+}
