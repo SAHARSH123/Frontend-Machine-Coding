@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.main {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+}
+
+.header {
+  background-color: red;
+}
+
+.content {
+  display: grid;
+}
+
+.left {
+  background-color: green;
+}
+
+.center {
+  background-color: lightpink;
+}
+
+.right {
+  background-color: yellow;
+}
+
+.footer {
+  background-color: blue;
+}
+
+@media only screen and (max-width: 767px) {
+  .main {
+    grid-template-rows: 1fr 3fr 1fr;
+  }
+
+  .content {
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .main {
+    grid-template-rows: 50px 1fr 50px;
+  }
+
+  .content {
+    grid-template-columns: 100px 1fr 100px;
+  }
+}
